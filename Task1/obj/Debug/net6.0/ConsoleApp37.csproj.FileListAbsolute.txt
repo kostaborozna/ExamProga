@@ -1,0 +1,15 @@
+C:\ExamProga\ExamProga\Task1\bin\Debug\net6.0\ConsoleApp37.exe
+C:\ExamProga\ExamProga\Task1\bin\Debug\net6.0\ConsoleApp37.deps.json
+C:\ExamProga\ExamProga\Task1\bin\Debug\net6.0\ConsoleApp37.runtimeconfig.json
+C:\ExamProga\ExamProga\Task1\bin\Debug\net6.0\ConsoleApp37.dll
+C:\ExamProga\ExamProga\Task1\bin\Debug\net6.0\ConsoleApp37.pdb
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.GeneratedMSBuildEditorConfig.editorconfig
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.AssemblyInfoInputs.cache
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.AssemblyInfo.cs
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.dll
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\refint\ConsoleApp37.dll
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.pdb
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ConsoleApp37.genruntimeconfig.cache
+C:\ExamProga\ExamProga\Task1\obj\Debug\net6.0\ref\ConsoleApp37.dll

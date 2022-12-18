@@ -1,0 +1,8 @@
+C:\ExamProga\ExamProga\Task22\bin\Debug\ConsoleApp41.exe.config
+C:\ExamProga\ExamProga\Task22\bin\Debug\ConsoleApp41.exe
+C:\ExamProga\ExamProga\Task22\bin\Debug\ConsoleApp41.pdb
+C:\ExamProga\ExamProga\Task22\obj\Debug\ConsoleApp41.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task22\obj\Debug\ConsoleApp41.csproj.SuggestedBindingRedirects.cache
+C:\ExamProga\ExamProga\Task22\obj\Debug\ConsoleApp41.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task22\obj\Debug\ConsoleApp41.exe
+C:\ExamProga\ExamProga\Task22\obj\Debug\ConsoleApp41.pdb

@@ -6,29 +6,40 @@ namespace Задача23
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Вводите элементы строкового массива, для остановки введите exit");
-            int i = 0;
-            string[] numbers = new string[1];
-            bool info = true;
-            while (info)
+            bool d = true;
+            while (d)
             {
-                string input = Console.ReadLine();
-                if (input == "exit")
+                Console.WriteLine("Вводите элементы строкового массива, для остановки введите exit");
+                int i = 0;
+                string[] numbers = new string[1];
+                bool info = true;
+                while (info)
                 {
-                    info = false;
+                    string input = Console.ReadLine();
+                    if (input == "exit")
+                    {
+                        info = false;
+                    }
+                    else
+                    {
+                        Array.Resize(ref numbers, 1 + i);
+                        numbers[i] = input;
+                        i++;
+                    }
                 }
-                else
+                for (int j = 0; j < numbers.Length; j++)
                 {
-                    Array.Resize(ref numbers, 1 + i);
-                    numbers[i] = input;
-                    i++;
+                    Console.Write($"{numbers[j]} ");
+                }
+                Console.ReadKey();
+                Console.WriteLine("Вы закончили? y/n");
+                string otvet = Console.ReadLine();
+                if (otvet=="y")
+                {
+                    d = false;
                 }
             }
-            for(int j = 0; j < numbers.Length; j++)
-            {
-                Console.Write($"{numbers[j]} ");
-            }
-            Console.ReadKey();
+            
         }
     }
 }

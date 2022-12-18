@@ -1,0 +1,8 @@
+C:\ExamProga\ExamProga\Task4\bin\Debug\FourthTask.exe.config
+C:\ExamProga\ExamProga\Task4\bin\Debug\FourthTask.exe
+C:\ExamProga\ExamProga\Task4\bin\Debug\FourthTask.pdb
+C:\ExamProga\ExamProga\Task4\obj\Debug\FourthTask.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task4\obj\Debug\FourthTask.csproj.SuggestedBindingRedirects.cache
+C:\ExamProga\ExamProga\Task4\obj\Debug\FourthTask.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task4\obj\Debug\FourthTask.exe
+C:\ExamProga\ExamProga\Task4\obj\Debug\FourthTask.pdb

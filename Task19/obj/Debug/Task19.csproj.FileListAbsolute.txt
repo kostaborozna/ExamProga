@@ -1,0 +1,8 @@
+C:\ExamProga\ExamProga\Task19\bin\Debug\Task19.exe.config
+C:\ExamProga\ExamProga\Task19\bin\Debug\Task19.exe
+C:\ExamProga\ExamProga\Task19\bin\Debug\Task19.pdb
+C:\ExamProga\ExamProga\Task19\obj\Debug\Task19.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task19\obj\Debug\Task19.csproj.SuggestedBindingRedirects.cache
+C:\ExamProga\ExamProga\Task19\obj\Debug\Task19.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task19\obj\Debug\Task19.exe
+C:\ExamProga\ExamProga\Task19\obj\Debug\Task19.pdb

@@ -1,0 +1,8 @@
+C:\ExamProga\ExamProga\Task6\bin\Debug\Task6.exe.config
+C:\ExamProga\ExamProga\Task6\bin\Debug\Task6.exe
+C:\ExamProga\ExamProga\Task6\bin\Debug\Task6.pdb
+C:\ExamProga\ExamProga\Task6\obj\Debug\Task6.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task6\obj\Debug\Task6.csproj.SuggestedBindingRedirects.cache
+C:\ExamProga\ExamProga\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task6\obj\Debug\Task6.exe
+C:\ExamProga\ExamProga\Task6\obj\Debug\Task6.pdb

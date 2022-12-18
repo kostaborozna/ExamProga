@@ -6,108 +6,118 @@ namespace задача20
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите число римскими цифрами");
-            string chislo = Console.ReadLine();
-            char[] array = chislo.ToCharArray();
-            int rez = 0;
-            int value = 0;
-            for (int i = 0; i < array.Length; i++)
+            bool d = true;
+            while (d)
             {
-                if (array[i] == 'I')
+                Console.WriteLine("Введите число римскими цифрами");
+                string chislo = Console.ReadLine();
+                char[] array = chislo.ToCharArray();
+                int rez = 0;
+                int value = 0;
+                for (int i = 0; i < array.Length; i++)
                 {
-                    value = 1;
-                }
-                if (array[i] == 'V')
-                {
-                    if (i > 0)
+                    if (array[i] == 'I')
                     {
-                        if (array[i - 1] == 'I')
+                        value = 1;
+                    }
+                    if (array[i] == 'V')
+                    {
+                        if (i > 0)
                         {
-                            value = 3;
+                            if (array[i - 1] == 'I')
+                            {
+                                value = 3;
+                            }
+                            else
+                                value = 5;
                         }
                         else
                             value = 5;
                     }
-                    else
-                        value = 5;
-                }
-                if (array[i] == 'X')
-                {
-                    if (i > 0)
+                    if (array[i] == 'X')
                     {
-                        if (array[i - 1] == 'I')
+                        if (i > 0)
                         {
-                            value = 8;
+                            if (array[i - 1] == 'I')
+                            {
+                                value = 8;
+                            }
+                            else
+                                value = 10;
                         }
                         else
                             value = 10;
                     }
-                    else
-                        value = 10;
-                }
-                if (array[i] == 'L')
-                {
-                    if (i > 0)
+                    if (array[i] == 'L')
                     {
-                        if (array[i - 1] == 'X')
+                        if (i > 0)
                         {
-                            value = 30;
+                            if (array[i - 1] == 'X')
+                            {
+                                value = 30;
+                            }
+                            else
+                                value = 50;
                         }
                         else
                             value = 50;
                     }
-                    else
-                        value = 50;
-                }
-                if (array[i] == 'C')
-                {
-                    if (i > 0)
+                    if (array[i] == 'C')
                     {
-                        if (array[i - 1] == 'X')
+                        if (i > 0)
                         {
-                            value = 80;
+                            if (array[i - 1] == 'X')
+                            {
+                                value = 80;
+                            }
+                            else
+                                value = 100;
                         }
                         else
                             value = 100;
                     }
-                    else
-                        value = 100;
-                }
-                if (array[i] == 'D')
-                {
-                    if (i > 0)
+                    if (array[i] == 'D')
                     {
-                        if (array[i - 1] == 'C')
+                        if (i > 0)
                         {
-                            value = 300;
+                            if (array[i - 1] == 'C')
+                            {
+                                value = 300;
+                            }
+                            else
+                                value = 500;
                         }
                         else
                             value = 500;
                     }
-                    else
-                        value = 500;
-                }
-                if (array[i] == 'M')
-                {
-                    if (i > 0)
+                    if (array[i] == 'M')
                     {
-                        if (array[i - 1] == 'C')
+                        if (i > 0)
                         {
-                            value = 800;
+                            if (array[i - 1] == 'C')
+                            {
+                                value = 800;
+                            }
+                            else
+                            {
+                                value = 1000;
+                            }
                         }
                         else
-                        {
                             value = 1000;
-                        }
-                    }
-                    else
-                        value = 1000;
 
+                    }
+                    rez += value;
                 }
-                rez += value;
+                Console.WriteLine("Ваше число арабскими цифрами {0}", rez);
+                Console.ReadKey();
+                Console.WriteLine("Вы закончили? y/n");
+                string otvet = Console.ReadLine();
+                if (otvet == "y")
+                {
+                    d = false;
+                }
             }
-            Console.WriteLine("Ваше число арабскими цифрами {0}", rez);
-            Console.ReadKey();
         }
     }
 }

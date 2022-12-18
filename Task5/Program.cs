@@ -6,14 +6,26 @@ namespace Task5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите сумму вклада");
-            int sum = Convert.ToInt32(Console.ReadLine());
-            for(int i = 0; i < 12; i++)
+            bool d = true;
+            while (d)
             {
-                sum = Convert.ToInt32(sum + 0.7);
+                Console.WriteLine("Введите сумму вклада");
+                double sum = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Введите количество месяцев");
+                int mes = Convert.ToInt32(Console.ReadLine());
+                for (int i = 0; i < mes; i++)
+                {
+                    sum += sum * 0.07;
+                }
+                Console.WriteLine(Math.Round(sum, 2));
+                Console.ReadKey();
+                Console.WriteLine("Вы закончили? y/n");
+                string otvet = Console.ReadLine();
+                if (otvet == "y")
+                {
+                    d = false;
+                }
             }
-            Console.WriteLine(sum);
-            Console.ReadKey();
         }
     }
 }

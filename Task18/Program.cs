@@ -6,47 +6,68 @@ namespace задачка18
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Укажите размер массива");
-            int r = Convert.ToInt32(Console.ReadLine());
-            int[] array = new int[r];
-            Random rnd = new Random();
-            for (int i = 0; i < array.Length; i++)
+            bool d = true;
+            while (d)
             {
-                array[i] = rnd.Next(10, 100);
-                Console.Write(array[i]);
-                Console.Write(", ");
-            }
-            Console.WriteLine();
-            int first = 0, second = 0;
-            Console.WriteLine("Введите загаданное число");
-            int chislo = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < array.Length; i++)
-            {
-                for (int j = 0; j < array.Length; j++)
+                Console.WriteLine("Укажите размер массива");
+                int r = Convert.ToInt32(Console.ReadLine());
+                int[] array = new int[r];
+                int[] a = new int[r];
+                int[] b = new int[r];
+                int k = 0;
+                Random rnd = new Random();
+                for (int i = 0; i < array.Length; i++)
                 {
-                    if (i == j)
+                    array[i] = rnd.Next(10, 20);
+                    Console.Write(array[i]);
+                    Console.Write(", ");
+                }
+                Console.WriteLine();
+                int first = 0, second = 0;
+                Console.WriteLine("Введите загаданное число");
+                int chislo = Convert.ToInt32(Console.ReadLine());
+                for (int i = 0; i < array.Length - 1; i++)
+                {
+                    for (int j = i + 1; j < array.Length; j++)
                     {
-
-                    }
-                    else
-                    {
-                        if (array[j] + array[i] == chislo)
+                        if (i == j)
                         {
-                            first = j;
-                            second = i;
+
+                        }
+                        else
+                        {
+                            if (array[j] + array[i] == chislo)
+                            {
+                                a[k] = i;
+                                b[k] = j;
+                                k++;
+                            }
                         }
                     }
                 }
+                if (k > 0)
+                {
+                    for (int i = 0; i < k; i++)
+                    {
+                        Console.Write($"{a[i]} и ");
+                        Console.Write($"{b[i]}");
+                        Console.WriteLine();
+
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Загаданного числа нет в массиве");
+                }
+                Console.ReadKey();
+                Console.WriteLine("Вы закончили? y/n");
+                string otvet = Console.ReadLine();
+                if (otvet == "y")
+                {
+                    d = false;
+                }
             }
-            if (first != 0 && second != 0)
-            {
-                Console.WriteLine("{0} и {1}", first, second);
-            }
-            else
-            {
-                Console.WriteLine("Загаданного числа нет в массиве");
-            }
-            Console.ReadKey();
+            
         }
     }
 }
