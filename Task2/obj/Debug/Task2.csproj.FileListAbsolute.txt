@@ -1,0 +1,8 @@
+C:\ExamProga\ExamProga\Task2\Task2\bin\Debug\Task2.exe.config
+C:\ExamProga\ExamProga\Task2\Task2\bin\Debug\Task2.exe
+C:\ExamProga\ExamProga\Task2\Task2\bin\Debug\Task2.pdb
+C:\ExamProga\ExamProga\Task2\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task2\Task2\obj\Debug\Task2.csproj.SuggestedBindingRedirects.cache
+C:\ExamProga\ExamProga\Task2\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task2\Task2\obj\Debug\Task2.exe
+C:\ExamProga\ExamProga\Task2\Task2\obj\Debug\Task2.pdb
