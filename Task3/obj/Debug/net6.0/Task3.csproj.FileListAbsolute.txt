@@ -1,0 +1,15 @@
+C:\ExamProga\ExamProga\Task3\bin\Debug\net6.0\Task3.exe
+C:\ExamProga\ExamProga\Task3\bin\Debug\net6.0\Task3.deps.json
+C:\ExamProga\ExamProga\Task3\bin\Debug\net6.0\Task3.runtimeconfig.json
+C:\ExamProga\ExamProga\Task3\bin\Debug\net6.0\Task3.dll
+C:\ExamProga\ExamProga\Task3\bin\Debug\net6.0\Task3.pdb
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.csproj.AssemblyReference.cache
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.AssemblyInfoInputs.cache
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.AssemblyInfo.cs
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.csproj.CoreCompileInputs.cache
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.dll
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\refint\Task3.dll
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.pdb
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\Task3.genruntimeconfig.cache
+C:\ExamProga\ExamProga\Task3\obj\Debug\net6.0\ref\Task3.dll
